@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Akıllı Reklam Yönetim Sistemi</string>
+    <string name="buttonBaslangicGiris">GİRİŞ</string>
+    <string name="buttonBaslangicKayitol">KAYIT OL</string>
+    <string name="textViewKayitOlEmail">E-MAIL :</string>
+    <string name="textViewKayitOlSifre">ŞİFRE :</string>
+    <string name="buttonKayitOl">KAYIT OL</string>
+    <string name="textViewGirisEmail">E-MAIL :</string>
+    <string name="textViewGirisSifre">ŞİFRE :</string>
+    <string name="buttonGiris">GİRİŞ</string>
+    <string name="textViewGirisSifremiUnuttum">Sifremi Unuttum</string>
+    <string name="textViewSifremiUnuttumEmail">E-MAIL :</string>
+    <string name="buttonSifremiUnuttum">GÖNDER</string>
+    <string name="textViewMagazaGirisFirmaAdi">FİRMA ADI :</string>
+    <string name="textViewMagazaGirisFirmaLokasyon">LOKASYON (x,y) :</string>
+    <string name="textViewMagazaGirisKampanyaIcerik">KAMPANYA İÇERİK :</string>
+    <string name="textViewMagazaGirisKampanyaSuresi">KAMPANYA SÜRESİ :</string>
+    <string name="buttonMagazaGiris">KAYDET</string>
+    <string name="textViewKonumveMesafeLongitude">LONGİTUDE (*):</string>
+    <string name="textViewKonumveMesafeLatitude">LATİTUDE (*):</string>
+    <string name="buttonKonumveMesafeDegerleriAl">KONUMU OTOMATİK AL</string>
+    <string name="textViewKonumveMesafeAralık">ARALIK DEĞERİNİ SEÇİNİZ (*):</string>
+    <string name="buttonKonumveMesafeAra">MAĞAZALARI ARA</string>
+    <string name="buttonMagazaGirisFotograf">FOTOĞRAF SEÇ</string>
+    <string name="textViewKonumveMesafeMagazaTur">MAĞAZA TÜRÜ :</string>
+    <string name="textViewKonumveMesafeMagazaAdi">MAĞAZA ADI :</string>
+    <string name="buttonMagazaGirisKonum">KONUMU OTOMATİK AL</string>
+
+    <string-array name="spinnerKonumveMesafe">
+        <item></item>
+        <item>Yiyecek</item>
+        <item>Giyim</item>
+        <item>Elektronik</item>
+        <item>Eşya</item>
+        <item>Kozmetik</item>
+    </string-array>
+
+    <string-array name="spinnerMagazaGirisKampanyaIcerik">
+        <item>Yiyecek</item>
+        <item>Giyim</item>
+        <item>Elektronik</item>
+        <item>Eşya</item>
+        <item>Kozmetik</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".KonumveMesafe">
+
+    <TextView
+        android:id="@+id/textViewKonumveMesafeMagazaTur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewKonumveMesafeMagazaTur" />
+
+    <Spinner
+        android:id="@+id/spinnerKonumveMesafe"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/textViewKonumveMesafeMagazaAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewKonumveMesafeMagazaAdi" />
+
+    <EditText
+        android:id="@+id/editTextKonumveMesafeMagazaAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewKonumveMesafeLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewKonumveMesafeLongitude" />
+
+    <EditText
+        android:id="@+id/editTextKonumveMesafeLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewKonumveMesafeLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewKonumveMesafeLatitude" />
+
+    <EditText
+        android:id="@+id/editTextKonumveMesafeLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonKonumveMesafeDegerleriAl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonKonumveMesafeDegerleriAl" />
+
+    <TextView
+        android:id="@+id/textViewKonumveMesafeAralık"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewKonumveMesafeAralık" />
+
+    <EditText
+        android:id="@+id/editTextKonumveMesafeAralık"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonKonumveMesafeAra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonKonumveMesafeAra" />
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MagazaGiris">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewMagazaGirisFirmaAdi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewMagazaGirisFirmaAdi" />
+
+            <EditText
+                android:id="@+id/editTextMagazaGirisFirmaAdi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textViewMagazaGirisFirmaLokasyon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewMagazaGirisFirmaLokasyon" />
+
+            <EditText
+                android:id="@+id/editTextMagazaGirisFirmaLokasyon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/buttonMagazaGirisKonum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonMagazaGirisKonum" />
+
+            <TextView
+                android:id="@+id/textViewMagazaGirisKampanyaIcerik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewMagazaGirisKampanyaIcerik" />
+
+            <Spinner
+                android:id="@+id/spinnerMagazaGirisKampanyaIcerik"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textViewMagazaGirisKampanyaSuresi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewMagazaGirisKampanyaSuresi" />
+
+            <EditText
+                android:id="@+id/editTextMagazaGirisKampanyaSuresi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date" />
+
+            <ImageView
+                android:id="@+id/imageViewMagazaGiris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars[2]" />
+
+            <Button
+                android:id="@+id/buttonMagazaGirisFotograf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonMagazaGirisFotograf" />
+
+            <Button
+                android:id="@+id/buttonMagazaGiris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonMagazaGiris" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
